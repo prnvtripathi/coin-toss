@@ -1,0 +1,45 @@
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  font-family: 'Mali', cursive;
+  background-image: linear-gradient(to right, #3934d9, #b82b6a);
+  text-align: center;
+}
+
+.coin {
+  margin-bottom: 1%;
+}
+
+.coin-image {
+  margin-top: 15%;
+}
+
+.btn-refresh {
+  background: #3934d9;
+  background-image: -webkit-linear-gradient(top, #3934d9, #b82b6a);
+  background-image: -moz-linear-gradient(top, #3934d9, #b82b6a);
+  background-image: -ms-linear-gradient(top, #3934d9, #b82b6a);
+  background-image: -o-linear-gradient(top, #3934d9, #b82b6a);
+  background-image: linear-gradient(to bottom, #3934d9, #b82b6a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 1rem;
+  width: 10%;
+}
+
+.btn-refresh:hover {
+  background: #fc3c79;
+  background-image: -webkit-linear-gradient(top, #fc3c79, #9434d9);
+  background-image: -moz-linear-gradient(top, #fc3c79, #9434d9);
+  background-image: -ms-linear-gradient(top, #fc3c79, #9434d9);
+  background-image: -o-linear-gradient(top, #fc3c79, #9434d9);
+  background-image: linear-gradient(to bottom, #fc3c79, #9434d9);
+  text-decoration: none;
+}
